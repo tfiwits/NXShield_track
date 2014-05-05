@@ -88,7 +88,6 @@ void loop()
           Serial.print(ff);   
                      SpeedVal=100; 
         if ((ll==2 && rr==3) || (rr==2 && ll==3) ){
- 
                 nxshield.bank_b.motorRunUnlimited(SH_Motor_1, SH_Direction_Forward,SpeedVal+20);
                 nxshield.bank_b.motorRunUnlimited(SH_Motor_2, SH_Direction_Forward,SpeedVal+20); 
             }else if (ll==4 && rr==1){
